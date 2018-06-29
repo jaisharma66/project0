@@ -1,0 +1,13 @@
+.container
+{
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.container > div
+{
+    background-color : #00aeff;
+    margin : 5%;
+    padding : 18%;
+    width : 110%;
+}
