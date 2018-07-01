@@ -2,12 +2,31 @@
 {
     display : flex;
     flex-wrap : wrap;
+    color : "black";
 }
 
 .container > div
 {
-    background-color : #00aeff;
+    /*#00aeff*/
+    background-color : #a1abba;
     margin : 5%;
     padding : 18%;
     width : 110%;
+    /*color : "black";*/
+    font-size : 50px;
+}
+
+.body
+{
+    background-color : #315a9b;
+}
+
+a:hover
+{
+    text-decoration : none;
+}
+
+.col
+{
+
 }

@@ -1,0 +1,17 @@
+%navigation
+{
+    font-family : sans-seriff;
+    font-size : 20px;
+    // Add Padding and or margin
+}
+.selected
+{
+   @extend %navigation;
+   font-weight: bold;
+}
+
+.extra
+{
+    @extend %navigation;
+    font-weight: normal;
+}

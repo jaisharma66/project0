@@ -1,0 +1,11 @@
+.selected, .extra {
+  font-family: sans-seriff;
+  font-size: 20px; }
+
+.selected {
+  font-weight: bold; }
+
+.extra {
+  font-weight: normal; }
+
+/*# sourceMappingURL=navbar_style.css.map */
