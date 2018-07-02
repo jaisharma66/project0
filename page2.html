@@ -3,19 +3,73 @@
     <head>
         <title>About Jai Sharma</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="navbar_style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class = "body">
-        <nav class = "navbar navbar-default navbar-fixed-top">
+        <nav class = "navbar navbar-expand-sm bg-light navbar-light">
             <div class = "container">
-                <div class = "extra"><a href = "index.html">Home</a></div>
-                <div class = "extra"><a href = "page1.html">List of things I like!</a></div>
-                <div class = "selected"><a href = "page2.html">Tabled Data</a></div>
-                <div class = "extra"><a href = "page3.html">Image</a></div>
-                <div class = "extra"><a href = "page4.html">Navigate to Page 4</a></div>
+                <a href = "index.html" class = "color">Home</a>
+                <a href = "page1.html" class = "color">List of things I like!</a>
+                <a href = "page2.html" class = "selected">Summer Programs</a>
+                <a href = "page3.html" class = "color">Ice Cream Photos</a>
+                <a href = "page4.html" class = "color">About Me</a>
             </div>
         </nav>
-        Hello World!
+        <!-- Add Width, Height, Etc in style sheet -->
+        <div class="title">
+            <center><p>Summer Programs</p></center>
+        </div>
+        <center>
+            <div>
+                <table>
+                    <tr>
+                        <th>University</th>
+                        <th>Year</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Emory University</td>
+                        <td>2013</td>
+                        <td>Learned basic programming and the fundamentals of game development</td>
+                    </tr>
+                    <tr>
+                        <td>Vanderbilt University</td>
+                        <td>2014</td>
+                        <td>Learned how to use industry grade software to develop video game levels. I learned how to render levels in Unreal Engine</td>
+                    </tr>
+                    <tr>
+                        <td>Stanford University</td>
+                        <td>2015</td>
+                        <td>Learned how to animate in Maya, creating a short animation. I also took an introductory course to a higher-level programming language known as JavaScript.</td>
+                    </tr>
+                    <tr>
+                        <td>Princeton University</td>
+                        <td>2016</td>
+                        <td>Learned how to create a game using C++, creating a sophisticated final project</td>
+                    </tr>
+                    <tr>
+                        <td>Massachusetts Institute of Technology</td>
+                        <td>2017</td>
+                        <td>Used the programming language of Swift to develop a game for the iPhone. The game follows industrial standards and is nearly completed</td>
+                    </tr>
+                    <tr>
+                        <td>Harvard University</td>
+                        <td>2018</td>
+                        <td>Taking two courses at Harvard, earning a total of 8 credits</td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+        <div class = "container2">
+            <div><img src="Emory University.jpg" width = "50%"/></div>
+            <div><img src="Vanderbilt University.JPG" width = "50%"/></div>
+            <div><img src="Stanford.jpg" width = "50%"/></div>
+            <div><img src="Princeton University.jpg" width = "50%"/></div>
+            <div><img src="MIT.jpg" width = "50%"/></div>
+            <div><img src="Harvard.jpg" width = "50%"/></div>
+
+        </div>
     </body>
 </html>

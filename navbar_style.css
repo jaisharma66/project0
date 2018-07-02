@@ -1,11 +1,12 @@
 .selected, .extra {
-  font-family: sans-seriff;
   font-size: 20px; }
 
 .selected {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #474747 !important; }
 
 .extra {
+  font-size: 15px;
   font-weight: normal; }
 
 /*# sourceMappingURL=navbar_style.css.map */
