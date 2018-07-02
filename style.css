@@ -1,55 +1,61 @@
 .container
 {
-    display : flex;
-    flex-wrap : wrap;
-    color : "black";
+    display: flex;
+    flex-wrap: wrap;
+    color: "black";
 }
 
 .container > div
 {
-    /*#fffcf9*/
-    background-color : #F8F9FA;
-    margin : 5%;
-    padding : 18%;
-    width : 110%;
-    font-size : 50px;
+    background-color: #F8F9FA;
+    margin: 5%;
+    padding: 18%;
+    width: 110%;
+    font-size: 50px;
 }
 
 .container2
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     color: "black";
 }
 
 .container2 > div
 {
     background-color: #474747;
-    flex-grow : 1;
     padding: 1%;
-    margin : 3%;
+    margin: 3%;
+}
+
+#fam_photo
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .body
 {
-    background-color : #e2fff1;
+    background-color: #e2fff1;
 }
 
 a:hover
 {
-    text-decoration : none;
-    color : #000000 !important;
+    text-decoration: none;
+    color: #000000 !important;
 }
 
 .color
 {
-    color : #474747 !important;
+    color: #474747 !important;
 }
 
 .col-2
 {
-    padding : 3%;
-    background-color : #F8F9FA;
+    padding: 3%;
+    background-color: #F8F9FA;
 }
 
 table, th, td

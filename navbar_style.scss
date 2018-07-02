@@ -1,7 +1,7 @@
 $color: #474747;
 %navigation
 {
-    font-size : 20px;
+    font-size: 20px;
 }
 
 .selected
@@ -14,6 +14,6 @@ $color: #474747;
 .extra
 {
     @extend %navigation;
-    font-size : 15px;
+    font-size: 15px;
     font-weight: normal;
 }
