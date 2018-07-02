@@ -1,3 +1,4 @@
+/* Containers for navbar and flexboxes*/
 .container
 {
     display: flex;
@@ -14,6 +15,7 @@
     font-size: 50px;
 }
 
+/* Containers for more flexboxes located at a different part of the website with different styling */
 .container2
 {
     display: flex;
@@ -29,6 +31,7 @@
     margin: 3%;
 }
 
+/* ID Selector to edit a specific photo */
 #fam_photo
 {
     max-width: 100%;
@@ -36,28 +39,33 @@
     border-radius: 8px;
 }
 
-.body
+/* Selector applying to all of the body, adding a background color */
+body
 {
     background-color: #e2fff1;
 }
 
+/* Selector that changes font decoration when hovering */
 a:hover
 {
     text-decoration: none;
     color: #000000 !important;
 }
 
+/* Changes link color. The !important was taken from w3schools to give priority to this color for links */
 .color
 {
     color: #474747 !important;
 }
 
+/* Adjusts styling for columns on page 3 */
 .col-2
 {
     padding: 3%;
     background-color: #F8F9FA;
 }
 
+/* Changes styling for the table, headers, and data */
 table, th, td
 {
     margin-top: 3%;
@@ -66,6 +74,7 @@ table, th, td
     padding: 11px;
 }
 
+/* Media Query adjusting font size based on the users screen size */
 @media (min-width: 700px)
 {
     table,th,td
@@ -82,6 +91,7 @@ table, th, td
     }
 }
 
+/* Adjusts title styling page 2 */
 .title
 {
     font-size: 23px;

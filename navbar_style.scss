@@ -1,3 +1,4 @@
+// Styles the navbar, using variables and inheritance
 $color: #474747;
 %navigation
 {
@@ -14,6 +15,5 @@ $color: #474747;
 .extra
 {
     @extend %navigation;
-    font-size: 15px;
     font-weight: normal;
 }
