@@ -1,15 +1,14 @@
+$color: #474747;
 %navigation
 {
-    //font-family : sans-seriff;
     font-size : 20px;
-    // Add Padding and or margin
 }
-// FIX IT
+
 .selected
 {
    @extend %navigation;
    font-weight: bold;
-   color: #474747 !important;
+   color: $color !important;
 }
 
 .extra
